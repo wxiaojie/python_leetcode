@@ -3,15 +3,15 @@
 #### 字符串
 1. 给一个list of strings， 称为t， 要求实现数据结构，定义函数find(s), s 是一个字符串，返回true or false， true表示s可以由t中不重叠的子串组成，
 t中的子串可以重复使用。要求查询时间尽可能短。
-##### Idea:
-Trie. [空间复杂度可能很高，子节点是所有可能的s， 所以查询时间可以做到O（1）]
+  Idea:
+  Trie. [空间复杂度可能很高，子节点是所有可能的s， 所以查询时间可以做到O（1）]
 
-2. 745. Prefix and Suffix Search
+2. （745）Prefix and Suffix Search
 Given many words, words[i] has weight i.
 Design a class WordFilter that supports one function, WordFilter.f(String prefix, String suffix). 
 It will return the word with given prefix and suffix with maximum weight. If no word exists, return -1.
-##### Idea:
-Trie.
+   Idea:
+   Trie.
 
 3. two_sum ？
 
